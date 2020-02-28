@@ -76,7 +76,7 @@ Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan lapo
   > rm temp1.txt
 - Tampilan file shell "soal1.sh" setelah dijalankan menggunakan syntax `bash` <br />
   ![hasil 1c](https://user-images.githubusercontent.com/26424136/75511699-88935900-5a21-11ea-9269-732599ed7ef6.jpg) <br />
-<br />
+
 ##### Tampilan Nomor 1 keseluruhan pada linux
 - syntax `nano soal1.sh`
 ![1](https://user-images.githubusercontent.com/26424136/75511932-61895700-5a22-11ea-9794-31a33282d23f.PNG)
