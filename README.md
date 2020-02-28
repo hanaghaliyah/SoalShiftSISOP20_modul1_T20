@@ -30,6 +30,7 @@ Terdiri dari 3 file shell, yaitu :
 3. <b>soal2_dekripsi.sh</b><br />
    File ini digunakan untuk mendekripsi file. Penggunaannya adalah dengan menambahkan argument nama file yang akan didekripsi<br />
    Contoh : <i>$</b> bash soal2_dekripsi.sh ufxxbtwi.txt</i>
+   
 
 
 # Soal 3
