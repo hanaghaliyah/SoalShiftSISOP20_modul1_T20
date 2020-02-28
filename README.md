@@ -20,25 +20,25 @@ Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan lapo
 1.a Region yang memiliki Profit paling sedikit
 - Pindah ke directory soal1 <br />
   Syntax : <br />
-  > cd Downloads/Modul1/soal1
+  `cd Downloads/Modul1/soal1
 - Membuat file shell "soal1.sh" <br />
   Syntax : <br />
-  > nano soal1.sh <br />
-  Isi file soal1.sh
-  `#!/bin/bash
+  `nano soal1.sh` <br />
+- Isi file soal1.sh
+  > #!/bin/bash 
+  
+  > declare -a state
+  > c=0
 
-   declare -a state
-   c=0
+  > read region profit <<< $(gawk -F "\t" 'NR>1 {summm[$13] += $21}
+  > END {
+  > for(i in summm){
+  >  print i, summm[i]
+  > }
+  > }' Sample-Superstore.tsv | LC_ALL=C sort -nrk2 | tail -1)
 
-   read region profit <<< $(gawk -F "\t" 'NR>1 {summm[$13] += $21}
-   END {
-   for(i in summm){
-    print i, summm[i]
-   }
-   }' Sample-Superstore.tsv | LC_ALL=C sort -nrk2 | tail -1)
-
-   echo "Region dengan profit terendah adalah "$region" dengan profit sebesar "$profit
-   printf "\n\n"`
+  > echo "Region dengan profit terendah adalah "$region" dengan profit sebesar "$profit
+  > printf "\n\n"`
 
 
 
