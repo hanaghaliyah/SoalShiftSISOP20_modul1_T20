@@ -81,7 +81,8 @@ Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan lapo
 - syntax `nano soal1.sh`
 ![1](https://user-images.githubusercontent.com/26424136/75511932-61895700-5a22-11ea-9794-31a33282d23f.PNG)
 - syntax `bash soal1.sh`
-![hasil 1](https://user-images.githubusercontent.com/26424136/75511880-2c7d0480-5a22-11ea-9925-73001db56f57.PNG) <br /> <br />
+![hasil 1](https://user-images.githubusercontent.com/26424136/75511880-2c7d0480-5a22-11ea-9925-73001db56f57.PNG) 
+<br /> <br />
 
 
 # Soal 2
