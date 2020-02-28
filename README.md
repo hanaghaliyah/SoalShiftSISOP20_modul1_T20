@@ -39,7 +39,13 @@ Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan lapo
   >
   > echo "Region dengan profit terendah adalah "$region" dengan profit sebesar "$profit <br />
   > printf "\n\n" <br />
-
+- Menjalankan file shell "soal1.sh" menggunakan bash
+  <b>Bash</b> berfungsi sebagai penerjemah antara user dan sistem operasi (kernel).
+  Syntax : <br />
+  `bash soal1.sh` <br />
+  Tampilan "soal1.sh" setelah dijalankan
+  ![hasil 1a](https://user-images.githubusercontent.com/26424136/75509861-9a71fd80-5a1b-11ea-9e4d-b74825f30c70.jpg)
+  
 
 
 # Soal 2
