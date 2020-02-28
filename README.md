@@ -63,17 +63,17 @@ Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan lapo
   
 1c. 10 product name yang memiliki profit paling sedikit berdasarkan 2 state hasil poin b  
 - Isi file shell "soal1.sh" <br />
-  > echo "10 produk yang memiliki keuntungan paling rendah di negara "${state[0]}" atau negara "${state[1]}" adalah sebagai berikut."
-  > echo "-------------------------------------------------------------------"
+  > echo "10 produk yang memiliki keuntungan paling rendah di negara "${state[0]}" atau negara "${state[1]}" adalah sebagai berikut." <br />
+  > echo "-------------------------------------------------------------------" <br />
   >
-  > gawk -F "\t" -v stat1=${state[0]} -v stat2=${state[1]} 'NR>1 {if(($11==stat1) || ($11==stat2)){summm[$17] += $21}}
-  > END {
-  >  for(k in summm){
-  >    print "- "k";"summm[k]
-  >  }
-  > }' Sample-Superstore.tsv | LC_ALL=C sort -gk2 -t ";" | head -10 | cut -d ";" -f1
+  > gawk -F "\t" -v stat1=${state[0]} -v stat2=${state[1]} 'NR>1 {if(($11==stat1) || ($11==stat2)){summm[$17] += $21}} <br />
+  > END { <br />
+  >  for(k in summm){ <br />
+  >    print "- "k";"summm[k] <br />
+  >  } <br />
+  > }' Sample-Superstore.tsv | LC_ALL=C sort -gk2 -t ";" | head -10 | cut -d ";" -f1 <br />
   >
-  > rm temp1.txt
+  > rm temp1.txt <br />
 - Tampilan file shell "soal1.sh" setelah dijalankan menggunakan syntax `bash` <br />
   ![hasil 1c](https://user-images.githubusercontent.com/26424136/75511699-88935900-5a21-11ea-9269-732599ed7ef6.jpg) <br />
 
