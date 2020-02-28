@@ -12,6 +12,7 @@ Whits adalah seorang mahasiswa teknik informatika. Dia mendapatkan tugas praktik
 - Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling sedikit <br />
 - Tampilkan 2 negara bagian (state) yang memiliki keuntungan (profit) paling sedikit berdasarkan poin a <br />
 - Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling sedikit berdasarkan 2 negara bagian (state) hasil poin b <br />
+
 Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan laporan tersebut. <br />
 *Gunakan AWK dan Command pendukung <br />
 
