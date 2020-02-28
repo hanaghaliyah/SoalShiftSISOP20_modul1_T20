@@ -27,18 +27,18 @@ Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan lapo
 - Isi file soal1.sh
   > #!/bin/bash 
   >
-  > declare -a state
+  > declare -a state <br />
   > c=0
   >
   > read region profit <<< $(gawk -F "\t" 'NR>1 {summm[$13] += $21} <br />
   > END { <br />
-  > for(i in summm){
-  >  print i, summm[i]
-  > }
-  > }' Sample-Superstore.tsv | LC_ALL=C sort -nrk2 | tail -1)
+  > for(i in summm){ <br />
+  > print i, summm[i] <br />
+  > } <br />
+  > }' Sample-Superstore.tsv | LC_ALL=C sort -nrk2 | tail -1) <br />
   >
-  > echo "Region dengan profit terendah adalah "$region" dengan profit sebesar "$profit
-  > printf "\n\n"`
+  > echo "Region dengan profit terendah adalah "$region" dengan profit sebesar "$profit <br />
+  > printf "\n\n" <br />
 
 
 
