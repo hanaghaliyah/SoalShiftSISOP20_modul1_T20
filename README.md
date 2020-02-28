@@ -39,8 +39,8 @@ Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan lapo
   >
   > echo "Region dengan profit terendah adalah "$region" dengan profit sebesar "$profit <br />
   > printf "\n\n" <br />
-- Menjalankan file shell "soal1.sh" menggunakan bash
-  <b>Bash</b> berfungsi sebagai penerjemah antara user dan sistem operasi (kernel).
+- Menjalankan file shell "soal1.sh" menggunakan bash <br />
+  <b>Bash</b> berfungsi sebagai penerjemah antara user dan sistem operasi (kernel). <br />
   Syntax : <br />
   `bash soal1.sh` <br />
   Tampilan "soal1.sh" setelah dijalankan
@@ -76,12 +76,13 @@ Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan lapo
   > rm temp1.txt
 - Tampilan file shell "soal1.sh" setelah dijalankan menggunakan syntax `bash` <br />
   ![hasil 1c](https://user-images.githubusercontent.com/26424136/75511699-88935900-5a21-11ea-9269-732599ed7ef6.jpg) <br />
-
+<br />
 ##### Tampilan Nomor 1 keseluruhan pada linux
 - syntax `nano soal1.sh`
 ![1](https://user-images.githubusercontent.com/26424136/75511932-61895700-5a22-11ea-9794-31a33282d23f.PNG)
 - syntax `bash soal1.sh`
-![hasil 1](https://user-images.githubusercontent.com/26424136/75511880-2c7d0480-5a22-11ea-9925-73001db56f57.PNG)
+![hasil 1](https://user-images.githubusercontent.com/26424136/75511880-2c7d0480-5a22-11ea-9925-73001db56f57.PNG) <br /> <br />
+
 
 # Soal 2
 Terdiri dari 3 file shell, yaitu :
