@@ -17,7 +17,7 @@ Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan lapo
 *Gunakan AWK dan Command pendukung <br />
 
 ### Jawaban
-1.a Region yang memiliki Profit paling sedikit
+1a. Region yang memiliki Profit paling sedikit
 - Pindah ke directory soal1 <br />
   Syntax : <br />
   `cd Downloads/Modul1/soal1`
@@ -44,9 +44,44 @@ Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan lapo
   Syntax : <br />
   `bash soal1.sh` <br />
   Tampilan "soal1.sh" setelah dijalankan
-  ![hasil 1a](https://user-images.githubusercontent.com/26424136/75509861-9a71fd80-5a1b-11ea-9e4d-b74825f30c70.jpg)
+  ![hasil 1a](https://user-images.githubusercontent.com/26424136/75509861-9a71fd80-5a1b-11ea-9e4d-b74825f30c70.jpg) <br />
+  Region `Central` memiliki profit paling sedikit yaitu sebesar `9706.4` <br />
+ 
+ 1b. 2 state yang memiliki profit paling sedikit berdasarkan poin a 
+ - Isi file shell "soal1.sh" <br />
+   > echo "2 negara yang memiliki profit terendah di region "$region" adalah" <br />
+   > while IFS= read -r line; <br />
+   > do <br />
+   >   state+=($line) <br />
+   >   echo "- "${state[c]} <br />
+   >   c=$c+1 <br />
+   > done < temp1.txt <br />
+   > printf "\n\n" <br />
+- Tampilan file shell "soal1.sh" setelah dijalankan menggunakan syntax `bash` <br />
+  ![hasil 1b](https://user-images.githubusercontent.com/26424136/75510834-ccd12a00-5a1e-11ea-970a-b7578c9b7278.jpg) <br />
+  2 negara bagian (state) yang memiliki profit terendah diregion <b>Central</b> yaitu `Illinois dan Texas` <br />
   
+1c. 10 product name yang memiliki profit paling sedikit berdasarkan 2 state hasil poin b  
+- Isi file shell "soal1.sh" <br />
+  > echo "10 produk yang memiliki keuntungan paling rendah di negara "${state[0]}" atau negara "${state[1]}" adalah sebagai berikut."
+  > echo "-------------------------------------------------------------------"
+  >
+  > gawk -F "\t" -v stat1=${state[0]} -v stat2=${state[1]} 'NR>1 {if(($11==stat1) || ($11==stat2)){summm[$17] += $21}}
+  > END {
+  >  for(k in summm){
+  >    print "- "k";"summm[k]
+  >  }
+  > }' Sample-Superstore.tsv | LC_ALL=C sort -gk2 -t ";" | head -10 | cut -d ";" -f1
+  >
+  > rm temp1.txt
+- Tampilan file shell "soal1.sh" setelah dijalankan menggunakan syntax `bash` <br />
+  ![hasil 1c](https://user-images.githubusercontent.com/26424136/75511699-88935900-5a21-11ea-9269-732599ed7ef6.jpg) <br />
 
+##### Tampilan Nomor 1 keseluruhan pada linux
+- syntax `nano soal1.sh`
+![1](https://user-images.githubusercontent.com/26424136/75511932-61895700-5a22-11ea-9794-31a33282d23f.PNG)
+- syntax `bash soal1.sh`
+![hasil 1](https://user-images.githubusercontent.com/26424136/75511880-2c7d0480-5a22-11ea-9925-73001db56f57.PNG)
 
 # Soal 2
 Terdiri dari 3 file shell, yaitu :
