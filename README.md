@@ -9,18 +9,14 @@ Anggota :
 
 # Soal 1
 Whits adalah seorang mahasiswa teknik informatika. Dia mendapatkan tugas praktikum untuk membuat laporan berdasarkan data yang ada pada file “Sample-Superstore.tsv”. Namun dia tidak dapat menyelesaikan tugas tersebut. Laporan yang diminta berupa :<br />
-a. Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling sedikit <br />
-b. Tampilkan 2 negara bagian (state) yang memiliki keuntungan (profit) paling sedikit berdasarkan hasil poin a <br />
-c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling sedikit berdasarkan 2 negara bagian (state) hasil poin b <br />
+   a. Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling sedikit <br />
+   b. Tampilkan 2 negara bagian (state) yang memiliki keuntungan (profit) paling sedikit berdasarkan hasil poin a <br />
+   c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling sedikit berdasarkan 2 negara bagian (state) hasil poin b <br />
 Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan laporan tersebut. <br />
 *Gunakan Awk dan Command pendukung Jawaban.<br />
 
 ### Jawaban
 
-Terdiri dari 1 file shell, yaitu :
-1. <b>soal1.sh</b><br />
-   File ini akan menampilkan semua informasi yang diminta berdasarkan soal 1a, 1b, dan 1c.<br />
-   Contoh : <i><b>$</b> bash soal1.sh</i>
 
 
 # Soal 2
