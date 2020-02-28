@@ -19,9 +19,11 @@ Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan lapo
 ### Jawaban
 1.a Region yang memiliki Profit paling sedikit
 - Pindah ke directory soal1 <br />
-  Syntax : > cd Downloads/Modul1/soal1
+  Syntax : <br />
+  > cd Downloads/Modul1/soal1
 - Membuat teks editor "soal1.sh" <br />
-  Syntax : > nano soal1.sh
+  Syntax : <br />
+  > nano soal1.sh
 
 
 
