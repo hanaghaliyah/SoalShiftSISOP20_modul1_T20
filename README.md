@@ -21,9 +21,24 @@ Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan lapo
 - Pindah ke directory soal1 <br />
   Syntax : <br />
   > cd Downloads/Modul1/soal1
-- Membuat teks editor "soal1.sh" <br />
+- Membuat file shell "soal1.sh" <br />
   Syntax : <br />
-  > nano soal1.sh
+  > nano soal1.sh <br />
+  Isi file soal1.sh
+  `#!/bin/bash
+
+   declare -a state
+   c=0
+
+   read region profit <<< $(gawk -F "\t" 'NR>1 {summm[$13] += $21}
+   END {
+   for(i in summm){
+    print i, summm[i]
+   }
+   }' Sample-Superstore.tsv | LC_ALL=C sort -nrk2 | tail -1)
+
+   echo "Region dengan profit terendah adalah "$region" dengan profit sebesar "$profit
+   printf "\n\n"`
 
 
 
